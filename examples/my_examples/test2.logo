@@ -1,0 +1,18 @@
+TO square [ ]
+[
+   REPEAT 4 [ FD :size RT 90 ]
+]
+
+TO triangle [ :size ]
+[
+   REPEAT 3 [ FD :size RT 120 ]
+]
+
+TO house [ ] 
+[
+   SET :size 100
+   square
+   FD :size
+   RT 60
+   triangle 80
+]

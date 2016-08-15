@@ -1,0 +1,161 @@
+to angle [ ]
+[
+  rt 30
+  fd 50
+  lt 105
+  fd 25
+  bk 25
+  rt 105
+  bk 50
+]
+
+tell [ 1 2 3 4 5 6 7 8 9 10 11 12 ]
+st
+pd
+for [ :x 1 12.1 1 ]
+[ 
+  ask [ :x ]
+  [
+    rt product id 30
+    setpc * id * 255 * 255 / 256 12
+  ]
+]
+angle
+pu
+fd 100
+angle
+angle
+angle
+angle
+angle
+angle
+angle
+angle
+angle
+angle
+angle
+angle
+angle
+angle
+angle
+angle
+angle
+angle
+angle
+angle
+angle
+angle
+angle
+angle
+angle
+angle
+angle
+angle
+angle
+angle
+angle
+angle
+angle
+angle
+angle
+angle
+angle
+angle
+angle
+angle
+angle
+angle
+angle
+angle
+angle
+angle
+angle
+set :x 5.0
+angle
+angle
+angle
+angle
+angle
+angle
+angle
+angle
+angle
+angle
+angle
+angle
+angle
+angle
+angle
+angle
+angle
+angle
+angle
+angle
+angle
+angle
+angle
+angle
+angle
+angle
+angle
+angle
+angle
+# move all
+tell [ 1 2 3 4 5 6 7 8 ]
+st
+pd
+rt random 360
+fd 100
+
+# move some
+askwith [ greater? xcor 50 ] [
+  lt random 360
+  bk 100
+]
+
+# move all again
+rt random 360
+fd 100
+
+# move some again
+ask [ 1 8 2 ] [ 
+  lt random 360
+  bk 100
+]
+
+# move a different few
+tell [ 1 2 3 ]
+rt random 360
+fd 100
+
+back 100
+xcor
+fd 200
+
+left 90
+fd 100
+fd 10
+3
+
+fd 100
+fd 1000000000
+fd 10
+
+setXY 0 0
+
+setsh 2
+setpc 5059456
+fd 100
+setpc 250
+right 100
+fd 100
+fd 100
+left 90
+back 200
+fd fd 100
+setsh 1
+tell [ 1 2 3 ]
+ask [ 1 2 ] [ fd 100 ]
+set :x 5.0
+
+ava 100

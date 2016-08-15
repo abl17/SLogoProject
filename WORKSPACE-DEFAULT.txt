@@ -1,0 +1,63 @@
+
+to square [ :distance ]
+[
+  repeat 4 [
+    fd :distance
+    rt 90
+  ]
+]
+
+make :distance 200
+repeat 10 [
+  square :distance
+  make :distance - :distance 10
+  rt 36
+]
+
+
+fd 50
+ask [ 0 1 2 3 4 5 6 ] rt 90
+fd 0
+ask [ 1 2 3 4 5 6 ] rt 90
+rt 90
+rt 90
+rt 90
+rt 90
+rt 90
+rt 90
+rt 90
+rt 90
+ask [ 1 2 3 4 5 ] fd 50
+ask [ 1 2 3 4 5 ] fd 50
+ask [ 1 2 3 4 5 ] fd 50
+ask [ 1 2 3 4 5 ] fd 50
+ask [ 1 2 3 4 5 ] fd 50
+fd 50
+fd 50
+fd 50
+fd 50
+fd 50
+fd 50
+fd 50
+fd 50
+fd 50
+cs
+set :x 35 
+rt 90
+rt 90
+rt 90
+rt 90
+pd 
+fd 50
+fd 50
+fd 50
+fd 50
+fd 50
+fd 50
+fd 50
+fd 50
+fd 50
+fd 50
+fd 50
+fd 50
+

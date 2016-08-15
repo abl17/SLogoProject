@@ -1,0 +1,91 @@
+fd 50
+
+fd 50
+
+fd 0
+
+
+fd 0
+fd 0
+fd 0
+pd
+fd 50
+
+setpc 16777215
+fd 50
+fd 50
+fd 50
+fd 50
+fd 50
+fd 50
+fd 50
+fd 50
+fd 50
+fd 50
+fd 50
+fd 50
+setpc 6711039
+fd 50
+
+
+
+
+
+
+fd 50
+fd 50
+fd 50
+fd 50
+fd 50
+fd 50
+fd 50
+fd 50
+fd 50
+fd 50
+fd 50
+fd 50
+fd 50
+fd 50
+fd 50
+fd 50
+fd 50
+fd 50
+fd 50
+fd 50
+fd 50
+fd 50
+fd 50
+fd 50
+fd 50
+fd 50
+fd 50
+fd 50
+fd 50
+fd 50
+fd 50
+fd 50
+fd 50
+fd 50
+fd 50
+fd 50
+fd 50
+fd 50
+fd 50
+fd 50
+fd 50
+fd 50
+fd 50
+fd 50
+fd 50
+fd 50
+fd 50
+fd 50
+fd 50
+fd 50
+fd 50
+fd 50
+fd 50
+fd 50
+avanti 50
+houtui 50
+youzhuan 90

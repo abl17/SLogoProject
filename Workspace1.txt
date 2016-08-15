@@ -1,0 +1,32 @@
+fd 50
+fd 50
+fd 50
+set :x 43
+to dash [ ] [ ]
+dash
+set :x 56.0
+fd 50
+fd 500
+
+to dash [ ] [ ] 
+dash
+<<<<<<< HEAD
+fd 50
+
+<<<<<<< HEAD
+fd 100
+
+rt 45
+fd 250
+fd 100
+fd 100
+fd 100
+=======
+fd 50
+
+cs
+fd 50000
+
+fd 50
+tell [ 0 1 2 ] fd 50
+>>>>>>> 3b48476629b7c422d553c6137d2bbcde4de97c60
